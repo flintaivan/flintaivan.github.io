@@ -1,3 +1,6 @@
 [submodule "izrada-web-stranice-web-shop-flintaivan"]
 	path = izrada-web-stranice-web-shop-flintaivan
 	url = git@github.com:Trokut-Neet-Akademija-4-0/izrada-web-stranice-web-shop-flintaivan.git
+[submodule "tech-shop"]
+	path = tech-shop
+	url = git@github.com:flintaivan/tech-shop.git
