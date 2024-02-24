@@ -19,29 +19,22 @@
 
     <nav class="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-600">
         <div class="max-w-screen-xl 2xl:max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <p class="flex items-center space-x-3 rtl:space-x-reverse">
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Ivan Adamić-Flinta</span>
-            </a>
-            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                    </svg>
-                </button>
-            </div>
+            </p>
             <div>
         </div>
     </nav>
 
+
     <div class="container mx-auto pt-28">
-        <div class="grid grid-cols-6 gap-3 items-center">
-            <div class="col-span-2 flex justify-center">
-                <img class="rounded-full w-96 h-96" src="https://placehold.co/600x600" alt="image description">
+        <div class="grid lg:grid-cols-6 grid-cols-1 gap-3 items-center">
+            <div class="md:col-span-2 flex justify-center">
+                <img class="rounded-full w-80 h-80" src="images/image-me.png" alt="image description">
             </div>
-            <div class="col-span-4">
-                <h1 class="text-4xl p-4">About me</h1>    
-                <p class="p-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis blanditiis architecto, excepturi sint corporis nemo, ad, qui atque veritatis velit non est quod quasi eveniet molestiae officia! Officiis assumenda autem placeat quae exercitationem, voluptas tenetur consectetur, vel cum saepe sequi minus nulla in nisi rem, harum consequuntur temporibus voluptatem iusto. Quibusdam cum porro possimus voluptas velit modi consequuntur, repellendus animi molestiae temporibus, ducimus at tempora eligendi totam neque laboriosam placeat suscipit fugit ratione. Commodi earum dolore id, laudantium enim dolores quis animi. Sit, facilis autem impedit quos dignissimos eum ipsa assumenda quibusdam aut commodi similique, obcaecati quaerat sunt possimus voluptas.</p>
+            <div class="lg:col-span-4">
+                <h1 class="text-center md:text-start text-4xl p-4">About me</h1>    
+                <p class="text-center md:text-start p-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
             </div>
         </div>
 
@@ -64,9 +57,10 @@
     <h3 class="text-2xl">Published Work</h3>
     <p>These are websites published on the internet</p>
 
-    <div class="container mt-12 flex flex-wrap justify-between">
+    <div class="container-md w-full mx-auto mt-12 flex flex-column flex-wrap md:flex-row justify-center">
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4">
+
             <a href="https://ibp.hr/">
                 <img class="rounded-t-lg" src="images/ibp-web.png" alt="" />
             </a>
@@ -99,8 +93,8 @@
                 </div>
             </div>
         </div>
-
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4">
             <a href="http://www.royalindia.hr/">
                 <img class="rounded-t-lg" src="images/royalindia-web.png" alt="" />
             </a>
@@ -134,7 +128,7 @@
             </div>
         </div>
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4">
             <a href="https://inventory-app-production-8623.up.railway.app/">
                 <img class="rounded-t-lg" src="images/casabrun-web.png" alt="" />
             </a>
@@ -183,7 +177,9 @@
     <h3 class="text-2xl">Unpublished Work</h3>
     <p>These are projects that are available only on github or gitlab</p>
 
-    <div class="container mt-12 flex flex-wrap justify-between">
+    <!-- <div class="container mt-12 flex flex-wrap justify-between"> -->
+    <div class="container-md w-full mx-auto mt-12 flex flex-column flex-wrap md:flex-row justify-center">
+
 
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://flintaivan.github.io/tech-shop-vue/">
